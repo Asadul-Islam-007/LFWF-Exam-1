@@ -1,0 +1,275 @@
+@media (max-width: 1980px) {
+  .slider {
+    background-position: 100% -15%;
+  }
+}
+@media (max-width: 1170px) {
+  .skill-icon {
+    margin-right: 16px;
+  }
+  .company h3 {
+    margin-left: .2em;
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .slider {
+    background-position: center;
+  }
+  .slider {
+    padding: 15em 0;
+  }
+  .skill .skill-info {
+    width: 48.5%;
+  }
+  .click-down {
+    display: block;
+  }
+  ul.header-menu {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    top: 66px;
+    bottom: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  #mobile-icon:checked ~ ul.header-menu {
+    bottom: 0;
+    transform: scaleY(.8);
+  }
+  .header-menu li ul {
+    left: 120%;
+  }
+  .common-text h2 {
+    font-weight: 600;
+    margin-bottom: 1em;
+    font-size: 15px;
+  }
+  .common-text span {
+    padding: 0.3em 1.2em;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .about-text .common-text span::after {
+    top: 36%;
+  }
+  .common-text p {
+    font-size: 13px;
+  }
+  .about-details .about-title-2 li {
+    line-height: 32px;
+  }
+  .about-details .about-title li {
+    line-height: 33px;
+  }
+  .common-2 h3 {
+    font-size: 14px;
+  }
+  .my-image {
+    flex-basis: 46%;
+  }
+}
+@media (max-width: 880px) {
+  .skills-sec .common-text h2 {
+    font-size: 2.4em;
+  }
+}
+@media (max-width: 768px) {
+  .header-menu li ul {
+    left: 135%;
+  }
+  ul.header-menu {
+    align-items: flex-start;
+    padding-left: 10%;
+  }
+  .slider {
+    padding: 10em 0;
+  }
+  .slider-text h1 {
+    font-size: 4em;
+  }
+  .slider-text h4 span.line-bar {
+    display: block;
+    margin: 0.8em auto;
+  }
+  .slider-text h4 span.mid-dot {
+    display: block;
+    margin: 0.5em auto;
+  }
+  .btn {
+    font-size: 1em;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+  }
+  .about-imag {
+    background-position: center;
+    width: 100%;
+    height: 50em;
+  }
+  .portfolio-item {
+    width: 48.5%;
+  }
+  .skill .skill-info {
+    width: 48.5%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .counter-about h3 {
+    font-size: 3em;
+    margin-bottom: 0em;
+  }
+  .education-content .common-text h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  .common-text span {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  .education-about {
+    flex-direction: column;
+  }
+  .company {
+    flex-basis: 48.5%;
+    margin-bottom: 2em;
+  }
+  .company-logo img {
+    width: 25%;
+  }
+  .contact-imfo span .fas {
+    font-size: 1.8em;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+  }
+  .footer {
+    padding: 3em 0;
+  }
+}
+@media (max-width: 650px) {
+  .contact-number {
+    width: 48%;
+    margin-bottom: 3em;
+  }
+  .company {
+    flex-basis: 98%;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .contact-form .btn {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 564px) {
+  .header-section {
+    padding: 9px 0;
+  }
+  .header-menu li ul {
+    top: 100%;
+    left: 0;
+    z-index: 9;
+    background-color: deeppink;
+  }
+  .header-menu li ul ul {
+    top: 100%;
+    left: 4%;
+  }
+  .py-5 {
+    padding: 5em 0;
+  }
+  .pt-5 {
+    padding-top: 3em;
+  }
+  .header-logo {
+    width: 70px;
+  }
+  .slider-text h1 {
+    font-size: 3em;
+  }
+  .slider-text h4 {
+    font-size: 0.8em;
+  }
+  .common-text h2 {
+    font-size: 1.6em;
+  }
+  .common-text p {
+    font-size: 1.2em;
+  }
+  .about-details .about-title-2 li {
+    font-size: 1.1em;
+  }
+  .about-details .about-title li {
+    font-size: 1.1em;
+  }
+  .btn {
+    font-size: 0.9em;
+  }
+  .portfolio-item {
+    width: 70%;
+    margin: 1em auto;
+  }
+  .portfolio-content .common-text h2 {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+  }
+  .portfolio-list ul li a {
+    font-size: 1em;
+  }
+  .skill .skill-info {
+    width: 96%;
+  }
+  .counter-about {
+    flex-basis: 48%;
+    margin-bottom: 3em;
+  }
+  .skill .common-text h2 {
+    font-size: 1.6em;
+  }
+  .counter-about h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  .counter-about p {
+    font-size: 1em;
+  }
+  .education-title {
+    flex-direction: column;
+  }
+  .skill-text h4 {
+    font-size: 1.6em;
+  }
+  .skill-text p {
+    font-size: 1.1em;
+  }
+  .contact-number {
+    width: 100%;
+  }
+  .footer-menu a .fab {
+    font-size: 1.1em;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0.5em;
+  }
+  .footer p {
+    font-size: 1.1em;
+    margin-top: 1em;
+  }
+}
+
+@media(max-width: 478px) {
+  .education-content .common-text h2 {
+    font-size: 18px;
+  }
+  .contact-email {
+    margin-top: 29px;
+  }
+}
